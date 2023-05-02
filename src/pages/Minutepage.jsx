@@ -262,19 +262,33 @@ const Minutepage = () => {
                   </div>
                 </div>
                 <div className="BTN">
-                  {(!timeToggle
-                    ? twelveHourFormat
-                    : twentyFourFormat
-                  ).fifteen.map((items) => (
-                    <button
-                      className="box-btn-inside"
-                      onClick={() => {
-                        handlepage(items);
-                      }}
-                    >
-                      {items}
-                    </button>
-                  ))}
+                {newDimensionArray === null &&
+                    (!timeToggle
+                      ? twelveHourFormat
+                      : twentyFourFormat
+                    ).fifteen.map((items) => (
+                      <button
+                        onClick={() => {
+                          handlepage(items);
+                        }}
+                        className="box-btn-inside"
+                      >
+                        {items}
+                      </button>
+                    ))}
+                  {newDimensionArray !== null &&
+                    newDimensionArray.map((items) => (
+                      <button
+                        onClick={() => {
+                          handlepage(items);
+                        }}
+                        className="box-btn-inside"
+                      >
+                        {items}
+                      </button>
+                    ))}
+
+                 
                 </div>
               </div>
             ))}
