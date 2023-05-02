@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.detailpage {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+}
+.innerDetailpage {
+  width: 65%;
+  height: 28rem;
+  background-color: white;
+  display: flex;
+  padding: 3rem;
+  gap: 5rem;
+  border-radius:0.8rem;
+  box-shadow: 5px 2px 14px 4px rgba(0, 0, 0, 0.51);
+}
+.owner {
+  width: 30%;
+}
+.user {
+  width: 40%;
+  display: flex;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.slogoimg {
+  width: 20%;
+  height: 3rem;
+  border-radius: 1.5rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.btn-value {
+  display: flex;
+  justify-content: space-between;
+
+}
+.btn-value-inside button{
+  width:5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+}

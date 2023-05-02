@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 5rem;
+  background-color: rgb(217, 217, 243);
+}
+.navbar{
+  padding: 1.5rem;
+}
+

@@ -1,0 +1,63 @@
+/* Complete page container */
+.complete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  /* Inner container */
+  .innercomplete {
+    max-width: 800px;
+    width:40%;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Tick icon */
+  .tick {
+    color: #1abc9c;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+  }
+  
+  /* First section */
+  .firstcomplete {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  text-align: center;
+   
+  
+  }
+  
+  /* Second section */
+  .second {
+    margin-bottom: 2rem;
+  }
+  
+  /* Third section */
+  .third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .third span {
+    margin-right: 1rem;
+  }
+  .third a {
+    text-decoration: none;
+    color: #1abc9c;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  .third a:hover {
+    color: #16a085;
+  }
+  

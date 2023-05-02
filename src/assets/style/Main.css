@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Main {
+  width: 100%;
+  height: 40rem;
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: center;
+}
+.cards {
+  width: 100%;
+  height: 8rem;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 5px 2px 14px 4px rgba(0, 0, 0, 0.51);
+}
+.cards:hover {
+  background-color: rgb(217, 217, 243);
+}
+.cardsinner {
+  display: flex;
+  gap: 2rem;
+}
+.Multiplecards {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}

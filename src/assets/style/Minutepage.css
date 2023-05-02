@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainbox {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  background-color: rgb(241, 241, 241);
+
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 25rem;
+  padding: 3rem;
+  display: flex;
+  gap: 5rem;
+  background-color: white;
+  border-radius: 0.8rem;
+  box-shadow: 5px 2px 14px 4px rgba(0, 0, 0, 0.51);
+}
+.meetingshedule {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-btn {
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+  cursor: pointer;
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.box-btn-inside {
+  height: 2.5rem;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.logoimg {
+  width: 20%;
+  height: 3rem;
+  border-radius: 1.5rem;
+  object-fit: contain;
+  object-position: center;
+}
+.meetingshedule {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-hh {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-hh button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btn-hh button:hover,
+.btn-hh button:active,
+.btn-hh button:focus {
+  background-color: rgb(0, 119, 247);
+  color: white;
+}
+.BTN {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.twobtn{
+  border: 1px solid black;
+}
